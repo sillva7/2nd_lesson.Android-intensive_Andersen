@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a2nd_lessonandroid_intensive_andersen"
+
+    >
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2nd_lessonAndroidintensive_Andersen">
+        <activity
+            android:name=".Activity23"
+            android:exported="false" />
+        <activity
+            android:name=".Activity22_3rd"
+            android:exported="false" />
+        <activity
+            android:name=".Activity22_2nd"
+            android:exported="false" />
+        <activity
+            android:name=".Activity22"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2132"
+            android:exported="false" />
+        <activity
+            android:name=".Activity21_3rd"
+            android:exported="false" />
+        <activity
+            android:name=".Activity21_2nd"
+            android:label="Second Activity"
+            android:parentActivityName=".Activity21">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.a2nd_lessonandroid_intensive_andersen.Activity21" />
+        </activity>
+        <activity
+            android:name=".Activity21"
+            android:exported="false" />
+        <activity
+            android:name=".Activity14"
+            android:exported="false"
+            android:label="@string/title_activity_14"
+            android:theme="@style/Theme.2nd_lessonAndroidintensive_Andersen.NoActionBar" />
+        <activity
+            android:name=".Activity13"
+            android:exported="false" />
+        <activity
+            android:name=".Activity12b"
+            android:exported="false" />
+        <activity
+            android:name=".Activity12a"
+            android:exported="false" />
+        <activity
+            android:name=".Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="developer.android.com" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

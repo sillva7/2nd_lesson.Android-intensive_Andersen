@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/design_default_color_primary_dark">
+
+    <Button
+        android:id="@+id/button1.1"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="1.1: Android Studio and Hello World"
+        android:layout_marginTop="120dp"
+
+        />
+    <Button
+        android:id="@+id/button1.2a"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1.1"
+        android:text="1.2 Part A: Your first interactive UI"
+        />
+    <Button
+        android:id="@+id/button1.2b"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1.2a"
+        android:text="1.2 Part B: The layout editor"
+        />
+    <Button
+        android:id="@+id/button1.3"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1.2b"
+        android:text="1.3: Text and scrolling views"
+        />
+    <Button
+        android:id="@+id/button1.4"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1.3"
+        android:text="1.4: Learn to help yourself"
+        />
+    <Button
+        android:id="@+id/button2.1"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1.4"
+        android:text="2.1: Activities and intents"
+        />
+    <Button
+        android:id="@+id/button2.2"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2.1"
+        android:text="2.2: Activity lifecycle and state"
+        />
+    <Button
+        android:id="@+id/button2.3"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2.2"
+        android:text="2.3: Implicit intents"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
